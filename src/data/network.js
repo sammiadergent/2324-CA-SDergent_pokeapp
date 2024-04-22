@@ -8,7 +8,7 @@ export default function useNetwork() {
   );
 
   return {
-    network: data?.network,
+    data,
     isLoading,
     isError: error,
   };

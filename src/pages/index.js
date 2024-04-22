@@ -5,12 +5,14 @@ import Link from 'next/link';
 
 export default function Home() {
   const [filter, setFilter] = useState('');
-  const { network, isLoading, isError } = useNetwork();
+  const { data, isLoading, isError } = useNetwork();
 
   if (isLoading) return <div>Loading...</div>;
   if (isError) return <div>Error...</div>;
 
-  const pokemons = network.pokemon;
+  console.log(data);
+
+  const pokemons = data;
 
   return <div></div>;
 }
