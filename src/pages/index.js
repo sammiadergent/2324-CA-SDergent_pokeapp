@@ -2,6 +2,7 @@ import styles from '@/styles/Home.module.css';
 import { useState } from 'react';
 import useNetwork from '@/data/network';
 import Link from 'next/link';
+import Filterraster from '@/components/filterraster';
 
 export default function Home() {
   const [filter, setFilter] = useState('');
@@ -13,6 +14,4 @@ export default function Home() {
   console.log(data);
 
   const pokemons = data;
-
-  return <div></div>;
 }

@@ -1,0 +1,14 @@
+.searchbar {
+  width: 232px;
+  height: 23px;
+  background-color: #fb465c;
+  border-color: #e62339;
+  border-width: 4px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  box-shadow: 2px 3px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.searchbar::placeholder {
+  color: #ffffff; /* Replace with your desired color */
+}

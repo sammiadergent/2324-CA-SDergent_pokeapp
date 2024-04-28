@@ -1,6 +1,13 @@
-.header {
-  width: 100vw;
+.background {
+  background-color: #fb465c;
+  height: 100vh;
 }
-.bovenkader {
-  width: 100vw;
+.scherm {
+  padding-left: 4%;
+  padding-top: 2%;
+}
+.searchbar {
+  position: absolute;
+  top: 16%;
+  left: 18%;
 }
