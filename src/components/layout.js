@@ -15,7 +15,7 @@ export default function Layout({ children }) {
         </div>
         <div className={styles.scherm}>
           <Scherm width="100%" />
-          <main>{children}</main>
+          <main className={styles.children}>{children}</main>
         </div>
       </div>
     </>

@@ -11,3 +11,10 @@
   top: 16%;
   left: 18%;
 }
+.children {
+  position: absolute;
+  top: 13%;
+  left: 4%;
+  width: 360px;
+  height: 720px;
+}
