@@ -1,0 +1,28 @@
+.vierkant {
+  width: 340px;
+  height: 600px;
+  position: absolute;
+  top: 70px;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 13px;
+  padding-left: 20px;
+}
+.pokemon {
+  width: 312px;
+  height: 74px;
+  background-color: white;
+  border-radius: 10px;
+}
+.pokemonnaam {
+  font-family: poppins;
+  padding-left: 7px;
+  font-size: 17px;
+  padding-top: 5px;
+  color: #444444;
+}
+.pokemoncijfer {
+  font-family: poppins;
+  color: #444444;
+}

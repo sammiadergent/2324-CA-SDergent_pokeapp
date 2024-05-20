@@ -15,7 +15,6 @@ const Type = () => {
 
   return (
     <div>
-      {type}
       <StyledPokemonsList pokemons={pokemons} />
     </div>
   );
