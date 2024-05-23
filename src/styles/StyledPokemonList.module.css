@@ -14,15 +14,16 @@
   height: 74px;
   background-color: white;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
 .pokemonnaam {
   font-family: poppins;
-  padding-left: 7px;
-  font-size: 17px;
+  padding-left: 20px;
+  font-size: 18px;
   padding-top: 5px;
   color: #444444;
 }
-.pokemoncijfer {
-  font-family: poppins;
-  color: #444444;
+.pokemonfoto {
+  margin-left: auto;
 }
