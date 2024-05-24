@@ -9,7 +9,6 @@ const Filterraster = ({ types, filterPokemonsByType }) => {
   while (fullTypes.length < 20) {
     fullTypes.push('default');
   }
-
   return (
     <div className={styles['grid-container']}>
       {fullTypes.map((type, index) => (
@@ -18,10 +17,8 @@ const Filterraster = ({ types, filterPokemonsByType }) => {
           onClick={() => {
             router.push(`/types/${type}`);
           }}
-          className={`${styles['type-' + type]} ${styles.vierkant}`} // Correctly interpolate the type variable into the class name
-        >
-          {type}
-        </button>
+          className={`${styles['type-' + type]} ${styles.vierkant}`}
+        ></button>
       ))}
     </div>
   );

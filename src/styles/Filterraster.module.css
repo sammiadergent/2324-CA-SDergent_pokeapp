@@ -17,59 +17,98 @@
 }
 .type-normal {
   background-color: #abacac;
+  background: url('../typelogo/normal.svg') no-repeat;
+  background-size: cover;
 }
 .type-fighting {
   background-color: #ffa702;
+  background: url('../typelogo/fighting.svg') no-repeat;
+  background-size: cover;
 }
 .type-flying {
   background-color: #9cd3ff;
+  background: url('../typelogo/flying.svg') no-repeat;
+  background-size: cover;
 }
 .type-poison {
   background-color: #9e4fd6;
+  background: url('../typelogo/poison.svg') no-repeat;
+  background-size: cover;
 }
 .type-ground {
   background-color: #b17d3b;
+  background: url('../typelogo/ground.svg') no-repeat;
+  background-size: cover;
 }
 .type-rock {
   background-color: #c0bc8c;
+  background: url('../typelogo/rock.svg') no-repeat;
+  background-size: cover;
 }
 .type-bug {
   background-color: #a8ae26;
+  background: url('../typelogo/bug.svg') no-repeat;
+  background-size: cover;
 }
 .type-ghost {
   background-color: #734876;
+  background: url('../typelogo/ghost.svg') no-repeat;
+  background-size: cover;
 }
 .type-steel {
   background-color: #6fb7dd;
+  background: url('../typelogo/steel.svg') no-repeat;
+  background-size: cover;
 }
 .type-fire {
   background-color: #ff662e;
+  background: url('../typelogo/fire.svg') no-repeat;
+  background-size: cover;
 }
 .type-water {
   background-color: #2b99ff;
+  background: url('../typelogo/water.svg') no-repeat;
+  background-size: cover;
 }
 .type-grass {
   background-color: #45c826;
+  background: url('../typelogo/grass.svg') no-repeat;
+  background-size: cover;
 }
 .type-electric {
   background-color: #ffdf00;
+  background: url('../typelogo/electric.svg') no-repeat;
+  background-size: cover;
 }
 .type-psychic {
   background-color: #ff6885;
+  background: url('../typelogo/psychic.svg') no-repeat;
+  background-size: cover;
 }
 .type-ice {
   background-color: #44dfff;
+  background: url('../typelogo/ice.svg') no-repeat;
+  background-size: cover;
 }
 .type-dragon {
   background-color: #5867e1;
+  background: url('../typelogo/dragon.svg') no-repeat;
+  background-size: cover;
 }
 .type-dark {
   background-color: #534b4b;
+  background: url('../typelogo/dark.svg') no-repeat;
+  background-size: cover;
 }
 .type-fairy {
   background-color: #ffb5ff;
+  background: url('../typelogo/fairy.svg') no-repeat;
+  background-size: cover;
 }
 .type-unknown,
 .type-shadow {
+  display: none;
+}
+.type-stellar {
   display: none;
 }
