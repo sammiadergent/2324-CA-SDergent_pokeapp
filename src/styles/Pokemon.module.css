@@ -1,0 +1,43 @@
+.wittekader {
+  position: fixed;
+  bottom: 8px;
+  width: 362px;
+  position: fixed;
+  z-index: 1;
+}
+.pokemonnaam {
+  font-family: poppins;
+  font-size: 32px;
+  color: #444444;
+  text-align: center;
+  padding-top: 80px;
+}
+.pokemontype {
+  font-family: poppins;
+  font-size: 18px;
+  color: #444444;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.fotovierkant {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  align-content: center;
+  box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.25);
+}
+.pokemonfoto {
+  width: 200px;
+  height: 200px;
+  margin-left: 25px;
+}
+.geluid {
+  margin-bottom: auto;
+  padding-left: 15px;
+}
