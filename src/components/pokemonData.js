@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '@/styles/Pokemon.module.css';
 import Wittekader from '../achtergrond/wittekader.svg';
 import getSpriteUrl from '@/data/spritesPokemonData.js';
-import Geluid from '@/components/volume.svg';
+import Geluid from '@/buttons/volume.svg';
 import { playPokemonCry } from '@/data/audioPlayer';
 import HpChart from '@/data/hpChart';
 import AttackChart from '@/data/attackChart';
