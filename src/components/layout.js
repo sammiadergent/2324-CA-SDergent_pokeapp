@@ -2,7 +2,7 @@ import styles from '@/styles/Layout.module.css';
 import Bovenkader from '../achtergrond/bovenkader.svg';
 import Scherm from '../achtergrond/scherm.svg';
 import SearchBar from '../components/searchbar';
-import HomeButton from '../components/homebutton';
+import Menu from '../components/menu';
 
 export default function Layout({ children }) {
   return (
@@ -14,9 +14,10 @@ export default function Layout({ children }) {
         <div className={styles.searchbar}>
           <SearchBar />
         </div>
-        <div className={styles.homebutton}>
-          <HomeButton />
+        <div className={styles.menu}>
+          <Menu />
         </div>
+
         <div className={styles.scherm}>
           <Scherm width="100%" />
           <main className={styles.children}>{children}</main>

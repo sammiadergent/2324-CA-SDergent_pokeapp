@@ -11,16 +11,16 @@
   top: 16%;
   left: 18%;
 }
-.homebutton {
-  position: fixed;
-  z-index: 2;
-  top: 16%;
-  left: 84%;
-}
 .children {
   position: absolute;
   top: 13%;
   left: 4%;
   width: 360px;
   height: 720px;
+}
+.menu {
+  position: fixed;
+  top: 92%;
+  left: 2%;
+  z-index: 5;
 }

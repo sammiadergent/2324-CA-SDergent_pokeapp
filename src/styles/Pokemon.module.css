@@ -1,7 +1,7 @@
 .wittekader {
   position: fixed;
-  bottom: 8px;
-  width: 362px;
+  bottom: 13px;
+  width: 360px;
   position: fixed;
   z-index: 1;
 }
@@ -16,7 +16,7 @@
   text-align: center;
   padding-top: 10px;
   position: fixed;
-  bottom: 210px;
+  bottom: 233px;
   left: 28px;
   text-decoration: underline;
 }
@@ -77,36 +77,36 @@
 .hpchart {
   position: fixed;
   z-index: 2;
-  bottom: 115px;
+  bottom: 149px;
   right: 160px;
 }
 .attackchart {
   position: fixed;
   z-index: 2;
-  bottom: 115px;
+  bottom: 149px;
   right: 46px;
 }
 .defensechart {
   position: fixed;
   z-index: 2;
-  bottom: 115px;
+  bottom: 149px;
   left: 160px;
 }
 .spchart {
   position: fixed;
   z-index: 2;
-  bottom: 20px;
+  bottom: 58px;
   right: 160px;
 }
 .defchart {
   position: fixed;
   z-index: 2;
-  bottom: 20px;
+  bottom: 58px;
   right: 46px;
 }
 .speedchart {
   position: fixed;
   z-index: 2;
-  bottom: 20px;
+  bottom: 58px;
   left: 160px;
 }

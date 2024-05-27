@@ -3,7 +3,7 @@ import styles from '@/styles/StyledPokemonList.module.css';
 import { getSpriteUrl } from '@/data/sprites.js';
 import { useRouter } from 'next/router';
 
-const styledPokemonsList = ({ pokemons }) => {
+const StyledPokemonsList = ({ pokemons }) => {
   const router = useRouter();
   return (
     <div>
@@ -33,4 +33,4 @@ const styledPokemonsList = ({ pokemons }) => {
   );
 };
 
-export default styledPokemonsList;
+export default StyledPokemonsList;
