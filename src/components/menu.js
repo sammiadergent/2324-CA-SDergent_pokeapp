@@ -26,10 +26,7 @@ const Menu = () => {
           >
             <Home className={styles.home} />
           </div>
-          <div
-            onClick={() => console.log('Second button clicked')}
-            className={styles.rondje_2}
-          >
+          <div onClick={() => router.back()} className={styles.rondje_2}>
             <Terug className={styles.terug} />
           </div>
         </>
