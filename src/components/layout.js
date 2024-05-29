@@ -1,7 +1,6 @@
 import styles from '@/styles/Layout.module.css';
 import Bovenkader from '../achtergrond/bovenkader.svg';
 import Scherm from '../achtergrond/scherm.svg';
-import SearchBar from '../components/searchbar';
 import Menu from '../components/menu';
 
 export default function Layout({ children }) {
@@ -10,9 +9,6 @@ export default function Layout({ children }) {
       <div className={styles.background}>
         <div className={styles.header}>
           <Bovenkader width="100%" />
-        </div>
-        <div className={styles.searchbar}>
-          <SearchBar />
         </div>
         <div className={styles.menu}>
           <Menu />
