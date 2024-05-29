@@ -16,12 +16,14 @@
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-router-dom": "^6.23.1",
+    "react-spritesheet": "^1.0.0",
     "swr": "^2.2.5"
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
     "eslint": "^8",
     "eslint-config-next": "14.2.1",
+    "file-loader": "^6.2.0",
     "prettier": "3.2.5"
   }
 }

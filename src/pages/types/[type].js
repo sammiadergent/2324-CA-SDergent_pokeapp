@@ -1,6 +1,7 @@
 import useType from '@/data/type';
 import StyledPokemonsList from '@/components/styledPokemonList';
 import { useRouter } from 'next/router';
+import Loading from '@/components/loading';
 
 const Type = () => {
   const router = useRouter();
@@ -8,7 +9,7 @@ const Type = () => {
 
   const { data, isLoading, isError } = useType(type);
 
-  if (isLoading) return <div>Loading...</div>;
+  if (isLoading) return <Loading />;
   if (isError) return <div>Error...</div>;
 
   const pokemons = data.pokemon.map((p) => p.pokemon);
